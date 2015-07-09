@@ -8,6 +8,7 @@ public class EVM {
 	   String[] namesofCandidate = {"Vijay", "Digamber", "Vishwajeet"};
 	   
 	   int[] users={1,2,3,4,5};
+	   int number=1;
 		int count,count1,count2=0;
 
        
@@ -36,7 +37,7 @@ public class EVM {
 	}
 	
 	
-	public void Vote(int number){
+	public int Vote(int number){
 		//names[0]="ABC";
         if(number==1){			
 		count++;
@@ -53,7 +54,7 @@ if(number==3){
 
 }
 
-
+return number;
 	
 	
 	}
@@ -63,6 +64,15 @@ if(number==3){
 		System.out.println("Total Votes For Candidate two-"+count1);
 		System.out.println("Total Votes For Candidate three-"+count2);
 
+	}
+
+	public void clear() {
+		// TODO Auto-generated method stub
+		cu.rs.clear();
+		count=0;
+		count1=0;
+		count2=0;
+		
 	}
 
 }

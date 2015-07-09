@@ -11,7 +11,7 @@ public void PressBallotButton(){
 
 public void PressTotalButton(){
 	
-	System.out.println("Reset");
+	System.out.println("Total");
 	
 }
 
