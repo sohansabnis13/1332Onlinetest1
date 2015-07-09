@@ -6,9 +6,23 @@ public class EVM {
 	BallotUnit bu=new BallotUnit();
 	//String[] names=new String[3];
 	   String[] namesofCandidate = {"Vijay", "Digamber", "Vishwajeet"};
+	   
+	   int[] users={1,2,3,4,5};
+		int count,count1,count2=0;
 
-
+       
+	   int CandidateVoteNumber;
+	   
 	
+	public int getCandidateVoteNumber() {
+		return CandidateVoteNumber;
+	}
+
+	public void setCandidateVoteNumber(int candidateVoteNumber) {
+		CandidateVoteNumber = candidateVoteNumber;
+	}
+
+
 	public String constituency;
 	   
 
@@ -22,14 +36,33 @@ public class EVM {
 	}
 	
 	
-	public void Vote(){
+	public void Vote(int number){
 		//names[0]="ABC";
-		for(int i=0;i<1;i++){
-			
+        if(number==1){			
+		count++;
+	}
+    if(number==2){			
 		
-		System.out.println(namesofCandidate[i]);
+		count1++;
+
 	}
 	
+if(number==3){			
+	count2++;
+
+
+}
+
+
+	
+	
+	}
+	
+	void displayTotal(){
+		System.out.println("Total Votes For Candidate One-"+count);
+		System.out.println("Total Votes For Candidate two-"+count1);
+		System.out.println("Total Votes For Candidate three-"+count2);
+
 	}
 
 }

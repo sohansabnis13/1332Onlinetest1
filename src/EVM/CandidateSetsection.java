@@ -2,7 +2,7 @@ package EVM;
 
 public class CandidateSetsection {
 	
-	public int numberOfCandidates=3;
+	public int numberOfCandidates;
 
 	public int getNumberOfCandidates() {
 		return numberOfCandidates;

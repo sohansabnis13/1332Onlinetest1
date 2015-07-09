@@ -5,7 +5,7 @@ public class BallotSection {
 	
 public void PressBallotButton(){
 		
-		System.out.println("Reset");
+		System.out.println("\nBallot Button Pressed\n");
 		
 	}
 

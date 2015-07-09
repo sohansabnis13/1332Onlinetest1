@@ -14,7 +14,7 @@ public void glowOffReadyLamp(){
 	}
 	
 public void glowOnCandidateLamp(){
-	System.out.println("Candidate Lamp On\n");
+	System.out.println("Candidate Lamp On-Vote Casted\n");
 	
 }
 
